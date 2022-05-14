@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url('../imgs/Genshin-Impact-003.jpg') center center no-repeat fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cabecalho {
+
+    width: 100%;
+    /*Largura*/
+    height: 75px;
+    /*Altura*/
+    background-color: #000000ab;
+
+
+}
+
+.LogoImg {
+
+    width: 70px;
+
+}
+
+
+
+.lado1 {
+    display: flex;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.lado2 {
+    display: flex;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.SelecCharBox {
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #0e0e0e8c;
+    border-radius: 10px;
+    align-items: center;
+    width: 150px;
+    background-color: #ffffff94;
+    margin: 5px;
+
+
+
+
+}
+
+.CharImg {
+    width: 60px;
+
+}
+
+.SelecCharBox select {
+
+    border: none;
+    border-radius: 10px;
+    width: 148px;
+    background-color: #ffffff94;
+}
+
+.SelecCharBox select::after {
+
+    border: none;
+    border-radius: 10px;
+
+}
+
+.Picks {
+    align-items: center;
+    text-align: center;
+}
+
+.inputNameTeam {
+    width: 80%;
+    height: 70px;
+    font-size: 80px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+}
+
+.BansTitle {
+    width: 100%;
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#by {
+    display: block;
+    font-size: 24px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+a {
+    color: var(--white);
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    opacity: 1;
+    font-weight: 500;
+    background-color: #fff;
+    max-height: 75px;
+    width: 250px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.LinkCanal {
+    font-size: 25px;
+    text-shadow: 2px 2px 0 #031020, 2px -2px 0 #031020, -2px 2px 0 #031020, -2px -2px 0 #031020, 2px 0px 0 #031020, 0px 2px 0 #031020, -2px 0px 0 #031020, 0px -2px 0 #031020;
+    border-radius: 0 25px 25px 0;
+    border: 3px solid #031020;
+}
+.IMPSPAN{
+    position: relative;
+    top: -25px;
+}
+
+
+.demo {
+    
+    height:250px;
+    border:1px solid #031020;
+    border-collapse:colapso;
+    border-spacing:2px;
+    padding:5px;
+}
+.demo caption {
+    text-align:center;
+}
+.demo th {
+    border:1px solid #031020;
+    padding:5px;
+    background:#CAE4F8;
+}
+.demo td {
+    border:1px solid #031020;
+    text-align:center;
+    padding:5px;
+    background:#FFFFFF;
+}
+
+
+input[type=time] {
+    border: none;
+    color: #2a2c2d;
+    font-size: 14px;
+    font-family: helvetica;
+    width: 180px;
+  }
+
+  .tabelasTempos{
+      display: flex;
+      margin: 0 auto;
+      width: 750px;
+  }
