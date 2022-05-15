@@ -9,25 +9,28 @@ function CalcularTempos() {
     var TeamTime1 = 0; 
     var TeamTime2 = 0; 
 
+    var teste = "01:02";
 
     console.log(team1Times[0].value);
     console.log(team2Times[0].value);
 
     for (let i = 0; i < team1Times.length; i++) {
-        TeamTime1 += team1Times[i].value ;
+       
+       // TeamTime1 += team1Times[i].value ;
+       var somar = team1Times[i].value.split(":");
+       var soma = parseFloat(somar[0])*60 + parseFloat(somar[1])
+       TeamTime1 += soma
 
-        console.log(team1Times[i].value);
-        
-        
         
     }
     for (let i = 0; i < team2Times.length; i++) {
-        TeamTime2 += team2Times[i].value;
-        
+        var somar = team2Times[i].value.split(":");
+        var soma = parseFloat(somar[0])*60 + parseFloat(somar[1])
+        TeamTime2 += soma
     }
 
-    team1.innerHTML = TeamTime1;
-    team2.innerHTML = TeamTime2;
+    team1.innerHTML = (TeamTime1*60);
+    team2.innerHTML = TeamTime2/60;
     
 
 } 
