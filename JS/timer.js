@@ -29,7 +29,7 @@ function CalcularTempos() {
         TeamTime2 += soma
     }
 
-    team1.innerHTML = (TeamTime1*60);
+    team1.innerHTML = (TeamTime1/60);
     team2.innerHTML = TeamTime2/60;
     
 
