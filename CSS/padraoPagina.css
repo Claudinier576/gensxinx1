@@ -294,19 +294,19 @@ input[type=time] {
  .timeUM{
      display: flex;
      width: 340px;
-     height: 300px;
+     height: 400px;
      flex-wrap: wrap;
  }
  .timeDois{
      display: flex;
      width: 340px;
-     height: 300px;
+     height: 400px;
      flex-wrap: wrap;
  }
  .BanstimeUM{
      display: flex;
      width: 340px;
-     height: 300px;
+     height: 400px;
      flex-wrap: wrap;
  }
  .BanstimeUM{
