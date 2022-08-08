@@ -562,7 +562,7 @@ var personagensJson = {
       },
       {
        
-          "id": "shenhe",
+          "id": "Shenhe",
           "name": "Shenhe",
           "title": "Transcendência Solitária",
           "description": "Uma discípula adepti com um ar muito incomum sobre ela. Tendo passado muito tempo vivendo em isolamento nas montanhas de Liyue, ela se tornou tão fria e distante quanto os próprios adepti.",
@@ -767,7 +767,7 @@ var personagensJson = {
       {
         
           "id": "yanfei",
-          "name": "Yanfei",
+          "name": "yanfei",
           "title": "Inocência Sábia",
           "description": "Uma Consultora Jurídica animada que vive no Porto de Liyue, é uma garota esperta com sangue da Besta Iluminada.",
           "weapon_type": "Catalisador",
