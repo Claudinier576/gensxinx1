@@ -12,7 +12,7 @@
 
 
 body {
-    background: url('../imgs/Genshin-Impact-the-chasm-purify-the-large-crystal-.jpg') center center no-repeat fixed;
+    background: url('../imgs/cap.jpg') center center no-repeat fixed;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -89,6 +89,19 @@ h1{
 .Picks {
     align-items: center;
     text-align: center;
+    justify-content: center;
+}
+div#time1Picks {
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+div#time2Picks {
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .inputNameTeam {
@@ -130,7 +143,7 @@ a {
     color: var(--white);
     position: fixed;
     right: 30px;
-    bottom: 30px;
+    bottom: 0px;
     opacity: 1;
     font-weight: 500;
     background-color: #fff;
@@ -213,23 +226,20 @@ input[type=time] {
 
 
   .angry-grid {
-    width: 1080px;
+    width: 100%;
     margin: 0 auto;
-    display: grid; 
- 
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 350px 350px 350px;
-    
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 340px 850px 340px;
     gap: 10px;
     justify-items: center;
-    
-    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
  }
    
- #item-0 {
-     text-align: center;
-    width: 350px;
- 
+ .item-0 {
+     text-align: center; 
     grid-row-start: 1;
     grid-column-start: 1;
  
@@ -237,10 +247,11 @@ input[type=time] {
     grid-column-end: 2;
     
  }
- #item-1 {
+ .item-1 {
     text-align: center;
-    width: 350px;
-
+ 
+    background-color: red;
+    width: 100px;
     grid-row-start: 2;
     grid-column-start: 1;
  
@@ -248,9 +259,8 @@ input[type=time] {
     grid-column-end: 2;
     
  }
- #item-2 {
+ .item-2 {
     text-align: center;
-    width: 350px;
  
     grid-row-start: 1;
     grid-column-start: 2;
@@ -259,9 +269,8 @@ input[type=time] {
     grid-column-end: 3;
     
  }
- #item-3 {
+ .item-3 {
     text-align: center;
-    width: 350px;
 
     grid-row-start: 2;
     grid-column-start: 2;
@@ -270,20 +279,19 @@ input[type=time] {
     grid-column-end: 3;
     
  }
- #item-4 {
+ .item-4 {
     text-align: center;
-    width: 350px;
     grid-row-start: 1;
     grid-column-start: 3;
- 
     grid-row-end: 2;
     grid-column-end: 4;
-    
- }
- #item-5 {
-    text-align: center;
-    width: 350px;
 
+
+ }
+ .item-5 {
+    text-align: center;
+    background-color: red;
+    width: 100px;
     grid-row-start: 2;
     grid-column-start: 3;
  
@@ -320,4 +328,25 @@ input[type=time] {
     width: 340px;
     height: 75px;
     flex-wrap: wrap;
- } 
+ }
+
+ #picks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    height: calc(100vh - 300px);
+
+    overflow-y: scroll;
+   
+ }
+ #time2Picks{
+    height: calc(100vh - 300px);
+    border: 3px solid #4e4a4ac5;
+ }
+ #time1Picks{
+    height: calc(100vh - 300px);
+    border: 3px solid #4e4a4ac5;
+ }
+ .Hover{
+    background-color: #CAE4F8;
+ }
