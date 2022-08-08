@@ -766,7 +766,7 @@ var personagensJson = {
       },
       {
         
-          "id": "Yanfei",
+          "id": "yanfei",
           "name": "Yanfei",
           "title": "Inocência Sábia",
           "description": "Uma Consultora Jurídica animada que vive no Porto de Liyue, é uma garota esperta com sangue da Besta Iluminada.",
