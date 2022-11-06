@@ -9,6 +9,11 @@ height: 125px;
 
 
 }
+
+.imgCard{
+    width: 120px;
+    height: 120px;
+}
 .per img{ 
     width: 120px;
 }
@@ -49,4 +54,7 @@ height: 125px;
 }
 .Hydro{
     background-color: #3b6fb8;
+}
+.Dendro{
+    background-color: #257d2c;
 }
